@@ -13,13 +13,13 @@ main {
 }
 div {
   display: flex;
-  margin: 3vw;
-  padding: 1vw 5vw;
+  margin: 2.5vw;
+  padding: 0.2vw 5vw;
   background: #000;
   border-radius: 5px;
 }
 h1 {
-  padding: 0.5vw 1vw;
+  padding: 0.3vw 1vw;
   font-size: 3vw;
   color: #fff;
 }
@@ -28,7 +28,7 @@ a {
   color: #fff;
 }
 .rainbow-button {
-  width: calc(20vw + 6px);
+  width: calc(36vw + 6px);
   height: calc(8vw + 6px);
   background-image: linear-gradient(
     90deg,
@@ -42,12 +42,12 @@ a {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: bold;
 }
 .rainbow-button:after {
   content: attr(alt);
-  width: 19.5vw;
+  width: 35.5vw;
   height: 7.5vw;
   background-color: #000;
   border-radius: 5px;
@@ -60,6 +60,6 @@ a {
 }
 @keyframes slidebg {
   to {
-    background-position: 20vw;
+    background-position: 40vw;
   }
 }
