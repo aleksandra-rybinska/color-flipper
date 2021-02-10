@@ -23,9 +23,11 @@ h1 {
   font-size: 3vw;
   color: #fff;
 }
-a {
+button {
   text-decoration: none;
   color: #fff;
+  border: none;
+  outline: 0;
 }
 .rainbow-button {
   width: calc(36vw + 6px);
@@ -44,9 +46,10 @@ a {
   text-transform: uppercase;
   font-size: 2vw;
   font-weight: bold;
+  position: relative;
 }
 .rainbow-button:after {
-  content: attr(alt);
+  content: 'click to change color';
   width: 35.5vw;
   height: 7.5vw;
   background-color: #000;
@@ -54,6 +57,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
 }
 .rainbow-button:hover {
   animation: slidebg 2s linear infinite;
